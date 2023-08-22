@@ -1,0 +1,85 @@
+:root {
+    --navbar-bg-default: #f8f9fa00; /* Default background color */
+    --navbar-bg-scrolled: #343a40; /* Background color when scrolled */
+
+
+}
+
+.navbar {
+  
+    background-color: var(--navbar-bg-default);
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 1px 1px 10px rgba(82, 81, 81, 0.500) /* Box shadow when scrolled */;
+    height: 16%;
+
+
+
+
+}
+.navbar-toggler span{
+    color: white;
+}
+.navbar.scrolled {
+
+    background-color: var(--navbar-bg-scrolled); /* Background color when scrolled */
+    box-shadow: 10px 10px 10px rgba(82, 81, 81, 0.781) /* Box shadow when scrolled */
+   
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.heading{
+    position: relative;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: auto;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1;
+    -webkit-text-stroke: 1px #0a3d88;
+    z-index: 1;
+    opacity: 0.4;
+    left: 0;
+    font-size: 140px;
+    top: -28px;
+}
+
+.site-navbar .site-navigation .site-menu .has-children > a span:before {
+    content: none
+}
+
+
+/* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.project{
+    background-image: url(/images/banner/project_banner1.jpg);
+}
+
+/* Default styles for the element */
+.small-div {
+    display: block; /* or inline, inline-block, etc. */
+  }
+  
+  /* Hide the element on large screens (width greater than 992px) */
+  @media (min-width: 993px) {
+    .small-div {
+      display: none;
+    }
+  }
+  
+  /* Hide the element on medium screens (width between 768px and 992px) */
+  @media (min-width: 768px) and (max-width: 992px) {
+    .small-div {
+      display: none;
+    }
+    .about-row {
+        display: flex;
+        flex-direction: column;
+    }
+  }

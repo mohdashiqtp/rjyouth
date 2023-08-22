@@ -1,0 +1,23 @@
+/* .dlab-bnr-inr{
+    background: #faf8f2;
+    height: 450px;
+    background-image: url(/images/banner/project_banner1.jpg);
+    background-size: 50%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+.dlab-bnr-inr:before{
+    content: "";
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: rotate(45deg) translate(0px, 140px);
+    -moz-transform: rotate(45deg) translate(0px, 140px);
+    -webkit-transform: rotate(45deg) translate(0px, 140px);
+    -ms-transform: rotate(45deg) translate(0px, 140px);
+    -o-transform: rotate(45deg) translate(0px, 140px);
+} */
